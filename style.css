@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:opsz,wght@9..144,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+body {
+    font-family: 'Fraunces', serif;
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*===================header========================*/
+.hero {
+    margin-bottom: 136px;
+}
+
+.header__main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+}
+
+.header__items+.header__items {
+    margin-left: 33px;
+}
+
+.header__logo {
+    max-width: 203px;
+    height: 24px;
+}
+
+.header__link {
+    height: 15px;
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+.header__link:hover {
+    height: 15px;
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.header__link:active {
+    height: 15px;
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: lightseagreen;
+}
+
+
+/*=======================HERO============================*/
+
+.hero__bg-style {
+    padding: 117px 85px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    height: 600px;
+}
+
+
+.hero__bg-img {
+    background-image: url(./image/coffee-capuchino.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero__title {
+    max-width: 453px;
+    height: 145px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+}
+
+.hero__text {
+    Width: 445px;
+
+    Height: 78px;
+
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+    margin-bottom: 56px;
+}
+
+.hero__link {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 18px;
+    padding: 15px 32px 16px 31px;
+    background: #0E8784;
+    border-radius: 6px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+.hero__link:hover {
+
+    background: #66D2CF;
+}
+
+.hero__link:active {
+    background: #E2DEDB;
+}
+
+/*--------------------------choose----------------------*/
+
+.choose__1 {
+    width: 255px;
+    height: 193px;
+}
+
+.choose__size {
+    max-width: 1111px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.choose_top-style {
+    position: absolute;
+    top: -40%;
+    width: 1111px;
+    height: 196px;
+    z-index: -1;
+}
+
+.choose__top-img {
+    background-image: url(./image/our-collection.png);
+    background-repeat: no-repeat;
+}
+
+.choose__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.choose__img {
+    background-image: url(./image/expresso@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.choose__title {
+    max-width: 255px;
+    height: 32px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+    margin-bottom: 24px;
+}
+
+.choose__text {
+    max-width: 255px;
+    Height: 78px;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+}
+
+/*=================================serves=======================*/
+
+
+.serves__main {
+    max-width: 1280px;
+
+    height: 577px;
+    padding: 100px 370px 86px 370px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #2C343E;
+    border-radius: 10px;
+}
+
+.server__title {
+    height: 48px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+}
+
+.server__text {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    opacity: 0.8;
+}
+
+/*===============seves__bottom--------------------------*/
+.serves__bottom-list {
+    max-width: 350px;
+    height: 382px;
+    padding: 75px 48px 48px 47px;
+    background: #0E8784;
+    border-radius: 8px;
+}
+
+.serves__bottom-img-style {
+    max-width: 72px;
+    margin-left: 85px;
+    height: 72px;
+    margin-bottom: 56px;
+}
+
+.server__bottom-mix {
+    margin-top: -230px;
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 200px;
+}
+
+.serves__bottom-img {
+    background-image: url(./image/coffe-dona.png);
+    background-repeat: no-repeat;
+}
+
+.serves__bottom-second-img {
+    background-image: url(./image/gift.svg);
+    background-repeat: no-repeat;
+}
+
+.serves__bottom-third-img {
+    background-image: url(./image/deliver.svg);
+    background-repeat: no-repeat;
+}
+
+.serves__bottom-title {
+    height: 32px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+    margin-bottom: 24px;
+}
+
+.serves__bottom-text {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+/*-=-==-=--====================number=====-----===---==--=-=--============*/
+.number__main{
+    max-width: 1045px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.number__title {
+    height: 32px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-bottom: 95px;
+}
+
+.number__line {
+    max-width: 760px;
+    height: 1px;
+    border: 2px solid #FDD6BA;
+    background: #FDD6BA;
+    margin-bottom: 67px;
+}
+
+.number__one {
+    max-width: 84px;
+    height: 72px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    margin-bottom: 38px;
+}
+.number__display{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1045px;
+    margin-bottom: 64px;
+
+}
+
+.number__title {
+    max-width: 255px;
+    height: 73px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    margin-bottom: 42px;
+}
+.number__text{
+    max-width: 285px;
+    height: 130px;
+    font-family: 'Barlow';
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+}
+.number__link{
+font-family: 'Fraunces';
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #FEFCF7;
+background: #0E8784;
+border-radius: 6px;
+padding: 15px 32px 16px 31px;
+margin-bottom: 200px;
+}
+.number__link:hover{
+    background: #66D2CF;
+}
+.number__link:active{
+    background: #E2DEDB;
+}
+/*==========================end__main================*/
+.end__main{
+    max-width: 1280px;
+    height: 118.27;
+    padding: 46.76px 85px 46.87px 85.9px;
+background: #2C343E;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 30px;
+margin-left: auto;
+margin-right: auto;
+
+}
+.end__help{
+    display: flex;
+    align-items: center;
+}
+.end__logo{
+max-width: 235px;
+height: 24.64px ;
+margin-right: 103px;
+}
+.end__link{
+    height: 15px;
+font-family: 'Barlow';
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #83888F;
+}
+.end__list{
+    display: flex;
+    align-items: center;
+}
+.end__items + .end__items{
+    margin-left: 33px;
+}
+.end__link-helper{
+    max-width: 120px;
+    display: flex;
+    align-items: center;
+}
+.end__end + .end__end{
+margin-left: 24px;
+}
+
+
